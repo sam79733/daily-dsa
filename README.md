@@ -1,11 +1,11 @@
 # daily-dsa
 Daily DSA practice
 
-## Table of Contents
- 1. [Array] 
- Stack
- LinkedList
- Queues
- Tree
- Graph
+
+ 1. Array
+ 2. Stack
+ 3. LinkedList
+ 4. Queues
+ 5. Tree
+ 6. Graph
 
