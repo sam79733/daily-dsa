@@ -1,7 +1,7 @@
 # daily-dsa
 Daily DSA practice
 
- Array
+ Array \n
  Stack
  LinkedList
  Queues
