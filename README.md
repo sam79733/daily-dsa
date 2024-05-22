@@ -1,9 +1,10 @@
 # daily-dsa
 Daily DSA practice
 
-#Array
-#Stack
-#LinkedList
-#Tree
-#Graph
-#Queues
+# Array
+# Stack
+# LinkedList
+# Queues
+# Tree
+# Graph
+
