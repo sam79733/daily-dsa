@@ -16,23 +16,20 @@ function isNumberAvailable_Interative(number, arr) {
 }
 
 // Recursion
-
 function isNumberAvailable_recursive(number, low, high, arr) {
   if (low > high) return false;
 
   let mid = Math.floor((low + high) / 2);
 
-  if(arr[mid] === number) return true;
-  if(number < arr[mid]){
-    return isNumberAvailable_recursive(number, low, mid -1, arr);
+  if (arr[mid] === number) return true;
+  if (number < arr[mid]) {
+    return isNumberAvailable_recursive(number, low, mid - 1, arr);
+  } else {
+    return isNumberAvailable_recursive(number, mid + 1, high, arr);
   }
-  else
-  {
-    return isNumberAvailable_recursive(number, mid +1 , high, arr)
-  }
-    
 }
+
 
 let arr = [2, 8, 10, 15, 19, 29, 30, 43, 55];
 
-console.log(isNumberAvailable_recursive(2, 0, arr.length - 1,  arr));
+console.log(isNumberAvailable_recursive(15, 0, arr.length -1, arr));
