@@ -1,4 +1,4 @@
-//Iterative
+//Iterative solution
 function isNumberAvailable_Interative(number, arr) {
   let low = 0;
   let high = arr.length - 1;
