@@ -1,3 +1,4 @@
+// understanding lower bound and upper bound is very important because there are so many problems depends on these two concept
 //lower bound : find smallest index of given array i.e arr[index] >= num
 
 function lower_bound(arr, target) {
