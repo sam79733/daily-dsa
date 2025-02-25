@@ -1,0 +1,19 @@
+{
+  "name": "daily-dsa",
+  "version": "1.0.0",
+  "description": "Daily DSA practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam79733/daily-dsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam79733/daily-dsa/issues"
+  },
+  "homepage": "https://github.com/sam79733/daily-dsa#readme"
+}
