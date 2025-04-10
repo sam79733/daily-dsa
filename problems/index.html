@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/problems/linked-list/Linked-List-Cycle.js"></script>
+    
+   
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .progress-bar-container{
+            height: 20px;
+            width: 300px;
+            border: 2px grey solid;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progressbar{
+            height: 100%;
+            width: 0%;
+            background-color: rgb(51, 198, 51);
+        }
+        .container button{
+            height: 45px;
+            width: 200px;
+            border-radius: 8px;
+            background-color: white;
+            font-size: 16px;
+           cursor: pointer;
+        }
+
+        .container div{
+            display: flex;
+            width: 400px;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid gray;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .container.dark button{
+            background-color: rgb(16, 15, 15);
+            color: white;
+        }
+
+        .container.dark div{
+            background-color: rgb(16, 15, 15);
+            color: white;
+        }
+
+        .child-cont {
+           width: 600px;
+           height: 600px;
+           position: absolute;
+           background-color: gray;
+           left: 50%;
+           transform: translateX(-50%);
+           text-replace: auto;
+           
+        }
+
+        .parent-div{
+            background-color: burlywood;
+            width: 100%;
+            height: 500px;
+        }
+.circle-outer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.circle-inner {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #eee;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+.circle-inner img {
+  width: 100%;
+  position: absolute;
+  top: -40px; /* This allows the image to float out from the top */
+}
+
+
+
+    </style>
 </head>
 <body>
+
+    <!-- <div class="container">
+       <button>Change to Dark</button>
+       <div>
+        <span>This is Gyanendra Srivastav</span>
+       </div>
+    </div> -->
+<div class="circle-outer">
+    <div class="circle-inner">
+        <img src="/problems/cutout1.png" alt="Floating image" />
+    </div>
+</div>
+
+
     
+<script src="./promise.js"></script>
+
+    <script>
+       
+    </script>
 </body>
 </html>

@@ -52,3 +52,30 @@ node4.next = node2;
 
 let linklist = new LinkedList();
 console.log(linklist.FindCycle(node1));
+
+class LinkedList {
+  constructor(val, next) {
+    this.value = val;
+    this.next = next;
+  }
+}
+
+function findLoop(head) {
+  if (head == null || head.next == null) {
+    return false;
+  }
+
+  let slow = head;
+  let fast = head;
+
+  while (fast && fast.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+
+    if (slow === fast) {
+      return true;
+    }
+  }
+
+  return false;
+}

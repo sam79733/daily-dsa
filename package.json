@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sam79733/daily-dsa/issues"
   },
-  "homepage": "https://github.com/sam79733/daily-dsa#readme"
+  "homepage": "https://github.com/sam79733/daily-dsa#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0"
+  }
 }
